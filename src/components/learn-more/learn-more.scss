@@ -1,0 +1,47 @@
+.learn-more {
+  color: #fff;
+  background: linear-gradient(93.19deg, #255d8b 2.29%, #3a80ba 96.79%) no-repeat
+    bottom/100% 90%;
+
+  .title {
+    padding-top: 106px;
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 580px;
+  }
+
+  .description {
+    margin-top: 16px;
+    font-size: 16px;
+    max-width: 580px;
+  }
+
+  .image{
+      margin: 0;
+      padding: 0;
+      
+  }
+
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+  button {
+    margin-top: 24px;
+    margin-bottom: 80px;
+    padding: 16px 0px;
+    width: 221px;
+    text-align: center;
+    color: #255d8c;
+    font-size: 16px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.5s;
+
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.user-footer {
+  color: #ffffff;
+  font-size: 16px;
+  background: #1c3b55;
+  padding: 10px 0;
+
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 576px) {
+  .user-footer {
+    .text {
+      flex-direction: column;
+      
+      span{
+        padding: 5px 0;
+      }
+    }
+  }
+}

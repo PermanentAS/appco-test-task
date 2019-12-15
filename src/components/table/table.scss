@@ -1,0 +1,37 @@
+.scroll {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+table {
+  border-radius: 15px;
+  width: 1180px;
+  height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: normal;
+
+  thead {
+    background: #3a80ba;
+    color: #fff;
+
+    th {
+      font-weight: normal;
+      border-right: 1px solid #fff;
+    }
+  }
+
+  tbody {
+    tr {
+      cursor: pointer;
+
+      td,
+      th,
+      a {
+        font-weight: normal;
+        border-right: 1px solid #fff;
+      }
+    }
+  }
+}

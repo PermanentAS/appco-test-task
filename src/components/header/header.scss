@@ -1,0 +1,68 @@
+.header {
+  background: url("./bg.jpg") no-repeat left/cover;
+  color: #fff;
+
+  .logo {
+    padding-top: 24px;
+    font-size: 40px;
+  }
+
+  .info {
+    h1 {
+      margin-top: 48px;
+      font-weight: bold;
+      font-size: 48px;
+      font-weight: normal;
+
+      span {
+        font-weight: bold;
+      }
+    }
+
+    p {
+      margin-top: 24px;
+      font-size: 20px;
+    }
+
+    button {
+      margin-top: 32px;
+      padding: 16px 0px;
+      width: 156px;
+      text-align: center;
+      color: #3a80ba;
+      font-size: 16px;
+      background: #ffffff;
+      border-radius: 8px;
+      border: none;
+      transition: all 0.5s;
+
+      &:hover {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    .info {
+      h1 {
+        font-size: 35px;
+        font-weight: normal;
+
+        span {
+          font-weight: bold;
+        }
+      }
+
+      p {
+        margin-top: 24px;
+        font-size: 20px;
+      }
+    }
+
+    .image {
+      width: 100%;
+    }
+  }
+}

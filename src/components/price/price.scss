@@ -1,0 +1,35 @@
+.price {
+  padding-top: 80px;
+  background: url("./img/bg.jpg") no-repeat right;
+  z-index: -1;
+
+  .title {
+    font-size: 32px;
+    max-width: 580px;
+    margin: 0 auto;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .description {
+    color: #7e7e7e;
+    font-size: 20px;
+    margin: 24px auto;
+    max-width: 664px;
+  }
+
+  .contact {
+    font-weight: normal;
+    font-size: 20px;
+    color: #7e7e7e;
+    margin: 32px 0 48px;
+
+    span{
+      color:#255d8c;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

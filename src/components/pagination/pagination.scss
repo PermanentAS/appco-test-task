@@ -1,0 +1,32 @@
+.pagination {
+  li.page-item {
+    width: 48px;
+    height: 48px;
+    margin: 4px;
+    cursor: pointer;
+
+    i,
+    span {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+
+    i{
+        font-size: 30px;
+        color: #3A80BA  
+    }
+
+    &.disabled i{
+        color: #F1F1F1
+    }
+
+    &.active span.page-link {
+      background-color: #3a80ba;
+      border-color: #3a80ba;
+    }
+  }
+}
